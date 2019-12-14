@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Mi Portafolio</title>
 </head>
 <body>
     <section>
         <h2>Contacto</h2>
-        
+        <form action="#">
+            <input type="text" placeholder="Nombre" required/>
+            <input type="text" placeholder="Apellido" required/>
+            <input type="email" placeholder="Email" required/>
+            <input type="text" placeholder="Teléfono" required pattern="[A-Za-z0-9]+"/>
+            <textarea placeholder="Descripción" required></textarea>
+            <button>Enviar</button>
+        </form>
     </section>
 </body>
 </html>
