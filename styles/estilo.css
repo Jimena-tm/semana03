@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+}
+
+input{
+    padding: 10px;
+}
+input:focus.valid {
+    border: 3px solid blueviolet;
+}
+
+input:focus.invalid {
+    border: 3px solid red
+}
