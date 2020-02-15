@@ -12,7 +12,7 @@
         <input type="text">
         <label>Apellido</label>
         <input type="text">
-        <input type="submit" value="Submit">
+
 
         <fieldset>
             <legend>Ingresa tus hobbies</legend>
@@ -20,9 +20,6 @@
             Hobbie 2: <input type="text">
         </fieldset>
 
-        <button>
-            Enviar
-        </button>
         <p>Elige tu deporte favorito</p>
         <select name="Selección">
             <option value="valor 1">Futbol</option>
@@ -32,9 +29,12 @@
             <option value="valor 5">Tennis</option>
             <option value="valor 6">Atletismo</option>
             <option value="valor 7">Artes marciales</option>
-
-
         </select>
+
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+          </p>
 
         <P>Elige tu estación favorita del año:
         <input list="estaciones" name="estaciones"/></P>
@@ -46,8 +46,9 @@
         </datalist>
 
         <textarea name="textarea" rows="15" cols="30">Cuéntanos tus vacaciones más divertidas</textarea>
-
-        
+        <br>
+        <button type="submit">Envíe su mensaje</button>
+    
 
     </form>
 </body>
